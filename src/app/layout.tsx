@@ -19,6 +19,8 @@ const poppins = Poppins({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://yanyan.mistressland.top'),
+
     title: `${SITE_CONFIG.mistressName} - 绝对主宰 & 极奢金库`,
     description: SITE_CONFIG.bio,
     icons: {
