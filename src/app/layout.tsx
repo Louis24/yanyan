@@ -43,8 +43,10 @@ export default function RootLayout({
             <body className="font-poppins bg-neutral-950 text-neutral-100 antialiased selection:bg-amber-400 selection:text-neutral-950">
         <script
           type="application/ld+json"
+          data-seo="contentfix"
           dangerouslySetInnerHTML={{ __html: '{"@context":"https://schema.org","@graph":[{"@type":"WebSite","@id":"https://yanyan.mistressland.top/#website","url":"https://yanyan.mistressland.top/","name":"Yanyan","description":"Yanyan offers online domination sessions, wardrobe fetish content and applications to serve.","inLanguage":"en","publisher":{"@id":"https://yanyan.mistressland.top/#person"}},{"@type":"Person","@id":"https://yanyan.mistressland.top/#person","name":"Yanyan","url":"https://yanyan.mistressland.top/","description":"Yanyan offers online domination sessions, wardrobe fetish content and applications to serve."}]}' }}
         />
+        
                 <div className="min-h-screen bg-neutral-950 flex flex-col">
                     <Navigation />
                     <main className="flex-1">{children}</main>
@@ -62,4 +64,3 @@ export default function RootLayout({
         </html>
     );
 }
-
